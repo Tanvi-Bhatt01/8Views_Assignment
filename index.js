@@ -50,19 +50,17 @@ main().then(() => {
     console.log(err);
 });
 
-app.get("/", (req, res) => {
-    res.send("Hii, I am root");
-});
 
-app.get("/index", async (req, res) => {
+
+app.get("/", async (req, res) => {
     res.render("index.ejs");
 })
 
-app.post("/index", async (req, res) => {
+app.post("/", async (req, res) => {
     const newConsult = new Consult(req.body.consult);
     await newConsult.save();
     req.flash("success","Your details are Saved");
-    res.redirect("/index");
+    res.redirect("/");
 })
 
 app.get("/testing", async (req, res) => {
