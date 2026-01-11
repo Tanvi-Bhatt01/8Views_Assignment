@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.hero-text,h1,h2,h3,h4,h5,h6{
+    font-family: Karla;
+}
+
+
+/* HEADER */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-flex img{
+    width: 191px;
+    height: 89px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.phone-btn {
+    background: #0FB085;
+    color: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.location-option{
+    color: rgba(64, 64, 64, 1);
+}
+
+/* HERO */
+.section-1 {
+    background: url(../Assets/Group_26.png) center/cover no-repeat;
+    padding: 70px 0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 40px;
+}
+
+
+.hero-text h1{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    color: rgba(26, 33, 41, 1);
+    margin-bottom: 30px;
+}
+
+.hero-form-card h4{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgba(50, 61, 58, 1);
+}
+
+.hero-text p {
+    color: rgba(72, 72, 72, 1);
+}
+
+.highlight {
+    color:  rgba(15, 176, 133, 1);
+}
+
+.hero-form-card {
+    background-color: rgba(255,255,255,0.65);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.hero-form-card h4{
+    width: 331px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+.hero-form-card input,
+.hero-form-card select,
+.hero-form-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+/* BUTTONS */
+.submit-btn {
+    background: #0FB085;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.fixed-btn {
+    width: 220px;
+    margin-top: 15px;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    padding: 80px 0;
+}
+
+.flex-2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.flex-2 p{
+    color: rgba(145, 156, 162, 1);
+}
+
+.urology-img {
+    max-width: 480px;
+    border-radius: 15px;
+}
+
+.container h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.btn-submit{
+    background-color: rgba(15, 176, 133, 1);
+    color:  rgba(255, 255, 255, 1);
+    border-style: none;
+    border-radius: 4px;
+    width: 335px;
+    height: 46px;
+}
+
+/* SECTION 3 */
+.section-3 {
+    background:rgba(125, 202, 182, 1);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-3 h2{
+    color:  rgba(26, 33, 41, 1);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.section-3 p{
+    color:  rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 1051px;
+    justify-self: center;
+}
+
+.section-3 span {
+    color:  rgba(255, 255, 255, 1);
+}
+
+/* CARDS */
+.center{
+    color: rgba(26, 33, 41, 1);
+}
+
+.card-grid h4{
+    color:  rgba(15, 176, 133, 1);
+}
+
+.card-grid p{
+    color: rgba(74, 74, 74, 1);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.info-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* OAB */
+.section-6 {
+    background:  rgba(245, 250, 255, 1) url(../Assets/shutterstock.png) right no-repeat;
+    background-size: 579px 467px;
+    padding: 70px 0;
+    margin-top: 50px;
+}
+
+.container h2{
+    color: rgba(26, 33, 41, 1);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.container h3{
+    color: rgba(15, 176, 133, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    padding-top: 37px;
+}
+
+.symptoms{
+    color: rgba(74, 74, 74, 1);
+}
+
+.card-row {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.gray-card {
+    margin-top: 100px;
+    border: 1px solid rgba(232, 232, 232, 1);
+    background-color:rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 12px;
+    width: 450px;
+}
+
+.gray-card h5{
+    color: rgba(26, 33, 41, 1);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+}
+
+.gray-card p{
+    color: rgba(74, 74, 74, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* UTIL */
+.center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 428px) {
+    .hero-grid,
+    .flex-2,
+    .card-row {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* SECTION TITLES  */
+.section-title {
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: rgba(26, 33, 41, 1);
+    text-align: center;
+}
+
+/* SECTION 7 */
+.section-7 {
+    padding: 80px 0;
+    background: url(../Assets/background_color.png) right no-repeat;
+    background-size: 257px 257px;
+}
+
+.two-card-grid {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.info-box {
+    color:  rgba(74, 74, 74, 1);
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.info-box h4 {
+    color: #0FB085;
+    margin-bottom: 15px;
+}
+
+.info-box ul {
+    padding-left: 18px;
+}
+
+/* SECTION 8 & 9 */
+.section-8,
+.section-9 {
+    padding: 80px 0;
+}
+
+.section-9{
+    background-color: rgba(245, 250, 255, 1);
+}
+
+.doctor-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.location, .card-info {
+    color: rgba(74, 74, 74, 1);
+}
+
+.card-body a{
+    width: 600px;
+    height: auto;
+}
+
+.card,.info-box{
+    box-shadow: 3.14px 3.92px 20.07px 0px rgba(115, 115, 115, 0.25);
+}
+
+/* BUTTON CENTER */
+.center {
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* //FAQs */
+.faq-section{
+    margin-top: 50px;
+}
+
+.faq-section h2{
+    text-align: center;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.accordion-item{
+    text-align: center;
+    height: auto;
+    width: 840px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 12px;
+}
+
+.consult-btn{
+    width: 335px;
+    padding: 19px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer-section{
+    margin: 20px;    
+    background-color: rgba(245, 250, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-section h2{
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: rgba(26, 33, 41, 1);
+
+}
+
+.footer-section button{
+    width: 335px;
+    background-color: rgba(15, 176, 133, 1);
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px; 
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+   /* MOBILE RESPONSIVE (428px) */
+
+@media screen and (max-width: 428px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    html,body{
+        width:100%;
+        overflow-x:hidden;  
+        margin:0;
+        padding:0;
+    }
+
+    .container{
+        max-width:100% !important;
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+
+    .main-header{
+        padding:10px 0;
+    }
+
+    .header-flex{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .logo{
+        width:140px;
+    }
+
+    .phone-btn{
+        font-size:13px;
+        padding:6px 14px;
+    }
+
+    .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section-1{
+        background-image: url(../Assets/Header.png);
+        margin-top: 20px;
+        padding:25px 10px;
+    }
+
+    .hero-grid{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .hero-text h1{
+        font-size:26px;
+        text-align:center;
+    }
+
+    .hero-text p{
+        font-size:13px;
+        text-align:center;
+    }
+
+    .hero-form-card{
+        width:100%;
+        margin-top:20px;
+        padding:18px;
+    }
+
+    .hero-form-card input,
+    .hero-form-card select,
+    .hero-form-card textarea{
+        width:100%;
+        font-size:13px;
+        padding:10px;
+    }
+
+    .section-2{
+        padding:30px 10px;
+    }
+
+    .flex-2{
+        flex-direction:column;
+    }
+
+    .urology-img{
+        width:396px;
+        margin-bottom:15px;
+    }
+
+    .section-3{
+        padding:30px 10px;
+    }
+
+    .section-3 h2{
+        font-size: 40px;
+        width: 395px;
+    }
+
+    .section-3 p{
+        font-size: 20px;
+        width: 396px;
+    }
+
+    .section-6{
+        background-image: none;
+        padding:30px 10px;
+    }
+
+    .card-row{
+        width: 396px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .section-7{
+        padding:30px 10px;
+    }
+
+    .two-card-grid{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .section-5{
+        padding:30px 10px;
+    }
+
+    .section-5 h2{
+        font-size: 40px;
+    }
+
+    .section-5 h4{
+        font-size: 22px;
+        color: rgba(15, 176, 133, 1);
+    }
+    
+    .section-5 p{
+        font-size: 16px;
+        color:rgba(145, 156, 162, 1);
+    }
+
+    .section-6 h2{
+        font-size: 40px;
+    }
+
+    .section-6 h3{
+        font-size: 32px;
+    }
+
+    .symptoms{
+        font-size: 16px;
+        color: rgba(145, 156, 162, 1);
+    }
+
+    .gray-card h5{
+        font-size: 22px;
+        color: rgba(26, 33, 41, 1);
+    }
+
+    .gray-card p,.gray-card ul{
+        font-size: 16px;
+        color: rgba(145, 156, 162, 1);
+    }
+
+    .card-grid{
+        width: 396px;
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .info-card{
+        width: 396px;
+    }
+
+    .info-box h4{
+        font-size: 22px;
+        color: rgba(15, 176, 133, 1);
+    }
+    
+    .info-box ul{
+        font-size: 16px;
+        color: rgba(145, 156, 162, 1);
+    }
+
+    .section-9 .doctor-grid{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .section-9 .col-md-5{
+        display:none !important;
+    }
+
+    .section-9 .col-md-7{
+        width:100%;
+    }
+
+    .section-9 .card{
+        max-width:100% !important;
+    }
+
+    .phone-btn{
+        max-width: 199px;
+        width: auto;
+        justify-self: center;
+    }
+
+    .section-9 .phone-btn{
+        display:block;
+        text-align:center;
+        margin-top:10px;
+    }
+
+    html,body{
+        width:100%;
+        max-width:428px;
+        margin:0 auto;
+        overflow-x:hidden !important;
+    }
+
+    section,
+    footer,
+    .center{
+        width:100%;
+        max-width:428px;
+        margin:0 auto;
+    }
+
+    .container{
+        max-width:428px !important;
+        padding-left:12px !important;
+        padding-right:12px !important;
+    }
+
+    .faq-section{
+        padding:20px 12px;
+    }
+
+    .faq-section h2{
+        font-size:20px;
+        text-align:center;
+    }
+
+    .accordion{
+        width:100%;
+    }
+
+    .accordion-button{
+        width:100%;
+        font-size:14px;
+        padding:12px;
+    }
+
+    .accordion-body{
+        font-size:13px;
+        line-height:1.6;
+        padding:12px;
+    }
+
+    .center{
+        padding:15px 12px;
+    }
+    .center .btn-submit{
+        width:100%;
+    }
+
+    .footer-section{
+        padding:25px 12px;
+        text-align:center;
+    }
+
+    .footer-section h2{
+        font-size:18px;
+    }
+
+    *{
+        max-width:100%;
+    }
+
+}
+
+
+@media screen and (max-width: 428px){
+    .section-8, .main-header{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 429px){
+    .section-6 img, .header-container img,.header-container a{
+        display: none !important;
+    }
+}
+
