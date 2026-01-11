@@ -10,7 +10,7 @@ const path = require("path");
 const ejsMate = require("ejs-mate");
 const session = require("express-session");
 const flash = require("connect-flash");
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const dbUrl = process.env.ATLAS_URL;
 
